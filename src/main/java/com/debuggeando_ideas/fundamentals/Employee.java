@@ -9,6 +9,14 @@ public class Employee {
     private String name;
     private Double salary;
 
+    public Employee() {}
+
+    public Employee(String dni, String name, Double salary) {
+        this.dni = dni;
+        this.name = name;
+        this.salary = salary;
+    }
+
     public String getDni() {
         return dni;
     }
